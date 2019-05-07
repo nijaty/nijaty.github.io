@@ -14,9 +14,7 @@ $(document).ready(function(e) {
                 )
 
             },
-            error: function(xhr, err, msg) {
-                console.log(xhr, err, msg);
-            }
+           
         })
     
     }); 

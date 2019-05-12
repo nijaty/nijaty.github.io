@@ -9,15 +9,16 @@
      color: white;
  }
 
- .heads, .btn {
+ .heads, .table-responsive .btn, .btn {
      background-color: #651fff;
      color: #00eaff;
 
  }
 
-    .btn:active {
-    color: red;
-}
+ .btn:hover {
+    background-color: #651fff;
+     color: #00eaff;
+ }
 
 
 

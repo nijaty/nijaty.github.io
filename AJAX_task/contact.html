@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    <style>
-        body  {
-            background-image: url("./images/background.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            background-attachment: fixed;
-            }
-    </style>
+<style>
+  body {
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+</style>
+
 <head>
   <title>Front_End_AJAX</title>
   <meta charset="utf-8">
@@ -20,58 +21,72 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="./css/style.css">
- 
+
 </head>
+
 <body>
- <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <a class="navbar-brand" href="home.html">
-        <img src="/AJAX_task/images/music_logo.png" width="30" height="30" alt="">
-      </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="home.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="albumList.html">Album List</a>
-      </li>
-      <li class="nav-item">
+      <img src="/AJAX_task/images/music_logo.png" width="30" height="30" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="albumList.html">Album List</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
-        </li>     
-    </ul>
-  </div>  
-</nav>
-    <footer>© 2019 Copyright: Yusubov Nijat</footer>
-    <style>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="resume-section p-4 p-lg-5 text-center" id="contact">
+    <div class="my-auto">
+      <h2 class="mb-4">Contact Information</h2>
 
-  h3, .heads, .result, .mainText {
-    color: white;
-  }
+      <ul class="fa-ul mb-4 ml-0">
+        <li id="mail-address">
+          <i class="fas fa-envelope-open mr-2 contact-icons"></i>nicat.yusubov@mail.com</a>
+        </li>
+        <li>
+          <i class="fas fa-mobile-alt mr-2 contact-icons"></i>+994-51-297-56-56
+        </li>
+        <li>
+          <i class="fas fa-map-marker-alt mr-2 contact-icons"></i>Baku, Azerbaijan
+        </li>
+      </ul>
 
+      <p>
+        Please, leave your message below.
+      </p>
 
-     footer{
-      
-  position: absolute;
-  bottom: 0;
+      <form class="contact-form d-flex flex-column align-items-center" action="https://formspree.io/youremail@mail.com"
+        method="POST">
+        <div class="form-group w-75">
+          <input type="name" class="form-control" placeholder="Name" name="name" required />
+        </div>
+        <div class="form-group w-75">
+          <input type="email" class="form-control" placeholder="Email" name="name" required />
+        </div>
 
-  margin-block-end: 0%;
-  color: #651fff;
-	background-color: #343a40;
-	width: 100%;
-	text-align: center;
-	font: normal 16px sans-serif;
+        <div class="form-group w-75">
+          <textarea class="form-control" type="text" placeholder="Message" rows="7" name="name" required></textarea>
+        </div>
 
-	padding: 35px 50px;
-}
-
-    </style>
+        <button type="submit" class="btn btn-submit btn-info w-75">Submit</button>
+      </form>
+    </div>
+  </section>
+  <footer style="position: relative;">© 2019 Copyright: Yusubov Nijat</footer>
 </body>
+
 </html>
-
-

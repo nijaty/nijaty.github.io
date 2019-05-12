@@ -1,13 +1,12 @@
  .navbar-nav .nav-item .nav-link:hover,
  .mb-4, 
- p, .linkAlbumList {
+ p, .linkAlbumList, .mainText {
      color: #651fff;
 
  }
 
  h3,
- .result,
- .mainText {
+ .result {
      color: white;
  }
 
@@ -25,6 +24,7 @@
  }
 
  .mainText {
+     text-align: center;
      font-size: 170%;
  }
 

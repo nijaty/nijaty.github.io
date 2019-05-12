@@ -1,5 +1,5 @@
  .navbar-nav .nav-item .nav-link:hover {
-    color: blue;
+    color: #651fff;
     border: none; 
 }
 
@@ -14,7 +14,7 @@ position: absolute;
 bottom: 0;
 
 margin-block-end: 0%;
-color: #00eaff;
+color: #00eaff !important;
   background-color: #343a40;
   width: 100%;
   text-align: center;

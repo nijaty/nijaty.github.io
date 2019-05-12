@@ -1,4 +1,6 @@
- .navbar-nav .nav-item .nav-link:hover, .mb-4, p {
+ .navbar-nav .nav-item .nav-link:hover,
+ .mb-4,
+ p {
      color: #651fff;
 
  }
@@ -9,18 +11,22 @@
      color: white;
  }
 
- .heads, .table-responsive .btn, .btn {
+ .heads,
+ .table-responsive .btn,
+ .btn {
      background-color: #651fff;
      color: #00eaff;
 
  }
 
  .btn:hover {
-    background-color: #651fff;
+     background-color: #651fff;
      color: #00eaff;
  }
 
-
+ .mainText {
+     font-size: 100%;
+ }
 
 
  footer {

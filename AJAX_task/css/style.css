@@ -1,12 +1,15 @@
  .navbar-nav .nav-item .nav-link:hover,
- .mb-4, 
- p, .linkAlbumList, .mainText {
+ .mb-4,
+ p,
+ .mainText {
      color: #651fff;
 
  }
 
  h3,
- .result {
+ .result,
+ .my-auto h2,
+ .linkAlbumList {
      color: white;
  }
 
@@ -16,6 +19,11 @@
      background-color: #651fff;
      color: #00eaff;
 
+ }
+
+
+ .linkAlbumList:hover {
+     color: #651fff;
  }
 
  .btn:hover {

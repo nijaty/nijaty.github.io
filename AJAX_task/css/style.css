@@ -1,24 +1,31 @@
  .navbar-nav .nav-item .nav-link:hover {
-    color: #651fff;
-    border: none; 
-}
+     color: #651fff;
 
-h3, .heads, .result, .mainText {
-  color: white;
-}
+ }
 
+ h3,
+ .result,
+ .mainText {
+     color: white;
+ }
 
-   footer{
-    
-position: absolute;
-bottom: 0;
+ .heads {
+     background-color: #651fff;
+     color: #00eaff !important;
 
-margin-block-end: 0%;
-color: #00eaff !important;
-  background-color: #343a40;
-  width: 100%;
-  text-align: center;
-  font: normal 16px sans-serif;
+ }
 
-  padding: 35px 50px;
-}
+ footer {
+
+     position: absolute;
+     bottom: 0;
+
+     margin-block-end: 0%;
+     color: #00eaff !important;
+     background-color: #343a40;
+     width: 100%;
+     text-align: center;
+     font: normal 16px sans-serif;
+
+     padding: 35px 50px;
+ }

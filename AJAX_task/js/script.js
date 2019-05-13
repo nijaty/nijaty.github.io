@@ -11,8 +11,8 @@ $(document).ready(function(e) {
             success: function(data) {
                 console.log(data);
                 $(data).each(function(index, value){
-                    var record="<tr><td>"+(index+1)+"</td><td>"+value.name+"</td><td>"+value.nameAlbum+"</td><td>"+value.year+"</td></tr>";
-                    $(table).append(record);
+                    var record="<tr><td>"+value.name+"</td><td>"+value.albumName+"</td><td>"+value.year+"</td></tr>";
+                    $("table").append(record);
                 });
                     
             }  

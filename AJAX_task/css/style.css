@@ -1,4 +1,11 @@
+/* html, body {
+    height: 100%;
+    position: relative;
+} */
+
+
 body {
+    
     background-image: url("/AJAX_task/images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,8 +56,8 @@ h3,
 
 
 footer {
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
 
     margin-block-end: 0%;
     color: #5132ff;
@@ -59,5 +66,5 @@ footer {
     text-align: center;
     font: normal 16px sans-serif;
 
-    padding: 35px 50px;
+    padding: 35px 80px;
 }

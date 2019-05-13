@@ -1,55 +1,63 @@
- .navbar-nav .nav-item .nav-link:hover,
- .mb-4,
- p,
- .mainText {
-     color: #651fff;
+body {
+    background-image: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
 
- }
+.navbar-nav .nav-item .nav-link:hover,
+.mb-4,
+p,
+.mainText {
+    color: #651fff;
 
- tr,
- h3,
- .name,
- .albumName,
- .year,
- .my-auto h2,
- .linkAlbumList {
-     color: white;
- }
+}
 
- .heads,
- .table-responsive .btn,
- .btn {
-     background-color: #651fff;
-     color: #00eaff;
+tr,
+h3,
+.name,
+.albumName,
+.year,
+.my-auto h2,
+.linkAlbumList {
+    color: white;
+}
 
- }
+.heads,
+.table-responsive .btn,
+.btn {
+    background-color: #651fff;
+    color: #00eaff;
 
-
- .linkAlbumList:hover {
-     color: #651fff;
- }
-
- .btn:hover {
-     background-color: #651fff;
-     color: #00eaff;
- }
-
- .mainText {
-     text-align: center;
-     font-size: 170%;
- }
+}
 
 
- footer {
-     position: absolute;
-     bottom: 0;
+.linkAlbumList:hover {
+    color: #651fff;
+}
 
-     margin-block-end: 0%;
-     color: #5132ff;
-     background-color: #343a40;
-     width: 100%;
-     text-align: center;
-     font: normal 16px sans-serif;
+.btn:hover {
+    background-color: #651fff;
+    color: #00eaff;
+}
 
-     padding: 35px 50px;
- }
+.mainText {
+    text-align: center;
+    font-size: 170%;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+
+    margin-block-end: 0%;
+    color: #5132ff;
+    background-color: #343a40;
+    width: 100%;
+    text-align: center;
+    font: normal 16px sans-serif;
+
+    padding: 35px 50px;
+}

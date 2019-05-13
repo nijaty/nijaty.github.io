@@ -1,3 +1,8 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     background-image: url("/AJAX_task/images/background.jpg");
     background-repeat: no-repeat;

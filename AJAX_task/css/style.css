@@ -7,7 +7,9 @@
  }
 
  h3,
- .result,
+ .name,
+ .albumName,
+ .year,
  .my-auto h2,
  .linkAlbumList {
      color: white;

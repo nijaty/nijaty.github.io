@@ -9,13 +9,20 @@ $(document).ready(function(e) {
             method: "GET",
             contentType: "application/json",
             success: function(data) {
-                $(".result").html(
-                    data.name + " " + data.albumName + data.year
-                )
+                console.log(data);
+                $(".name").html(
+                    data.name
+                ),
+                $(".albumName").html(
+                    data.albumName
+                ),
 
-            },
+                $(".year").html(
+                    data.year
+                )
+            }
            
-        })
+        });
     
     }); 
 });

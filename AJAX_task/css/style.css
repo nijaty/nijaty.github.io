@@ -1,18 +1,5 @@
-<<<<<<< HEAD
-html {
-    position: relative;
-    min-height: 100%;
-}
-=======
-/* html, body {
-    height: 100%;
-    position: relative;
-} */
-
->>>>>>> 9ee45631c287023bdbf516e76586cd43b6b3063c
-
 body {
-    
+
     background-image: url("/AJAX_task/images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,8 +50,8 @@ h3,
 
 
 footer {
-    /* position: absolute;
-    bottom: 0; */
+    position: absolute;
+    bottom: 0;
 
     margin-block-end: 0%;
     color: #5132ff;

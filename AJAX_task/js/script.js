@@ -1,5 +1,5 @@
 $(document).ready(function(e) {
-    $("button").click(function(e) {
+    $("button").one('click', function(e) {
         $.ajax({
             url: "https://fake.munisisazade.com/v1/5cd8d428fd1d61e440b4d1dc",
             method: "GET",

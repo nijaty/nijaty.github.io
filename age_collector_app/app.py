@@ -39,7 +39,7 @@ def success():
             count = db.session.query(Data.age_).count()
             send_email(email, age, average_age, count)
             return render_template("success.html")
-        return render_template('index.html', text="This email has already exits")
+        return render_template('index.html', text="This email has already exists")
 
 
 if __name__ == '__main__':
